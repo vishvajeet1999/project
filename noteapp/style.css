@@ -1,0 +1,109 @@
+html{
+    position: relative;
+    min-height: 100%;
+    
+}
+
+
+/*background image*/
+body{
+    font-family: Arvo,serif;
+    background: url("image.jpg") no-repeat center center; 
+    background-attachment: fixed;
+    background-size: cover;
+    
+}  
+
+/*style jumbotron*/ 
+
+.jumbotron{
+    background-color: transparent;
+     text-align: center;
+    letter-spacing: 2.5px;
+    padding: 10px;
+    margin-top: 150px;
+}
+
+/*buttons*/
+.signup{
+margin-top: 50px;
+}
+
+.green{
+    background-color: rgba(114,190,35,0.8);
+}
+.green:hover{
+    background-color: rgba(114,190,35);
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+    
+    
+}
+
+
+/* navbar */
+.navbar-custom, .footer {
+    background-color: #af4600;
+    border-color: #af4600;
+}
+    /* navbar top level text and links */
+.navbar-custom .navbar-nav > li, .navbar-custom .navbar-nav > li > a {
+    color: #ffffff;
+}
+/* top level link when mouse is hovering */
+.navbar-custom .navbar-nav > li > a:hover, .navbar-custom .navbar-nav > li > a:focus {
+    color: #ffffff;
+    background-color: #af4600;
+}
+  
+/* top level parent link when the drop down is open */
+.navbar-custom .navbar-nav > .open > a, .navbar-custom .navbar-nav > .open > a:hover, .navbar-custom .navbar-nav > .open > a:focus {
+    background-color: #FF6600;
+    color: #ffffff;
+}
+  
+/* level 1 menu bar */
+.navbar-custom .dropdown-menu {
+    background-color: #FF6600;
+    border-color: #af4600;
+    color: #ffffff;
+}
+/* level 1 menu bar text and links*/
+.navbar-custom .dropdown-menu > li, .navbar-custom .dropdown-menu > li > a {
+    color: #ffffff;
+}
+/* level 1 menu bar hovering */
+.navbar-custom .dropdown-menu > li > a:hover, .navbar-custom .dropdown-menu > li > a:focus {
+    color: #ffffff;
+    background-color: #af4600;
+}
+/* mobile toggle button formatting */
+.navbar-custom .navbar-toggle {
+    border-color: #FF6600;
+}
+  
+/* mobile toggle button mouse hover */
+.navbar-custom .navbar-toggle:focus, .navbar-custom .navbar-toggle:hover {
+    background-color: #FF6600;
+}
+  
+/* mobile toggle button icon bar tower */
+.navbar-custom .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+  
+/* mobile 2nd level menu hover */
+.navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover {
+    background-color: #FF6600;
+    color: #ffffff;
+}
+/* mobile 2nd level link */
+.navbar-custom .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+}
